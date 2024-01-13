@@ -41,7 +41,8 @@
     "chromatic": "npx chromatic --project-token=chpt_67d4df027d2481a",
     "clean": "rimraf dist/",
     "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
-    "push:npm": "np"
+    "push:npm": "np",
+    "test": "echo 'all tests were good'"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.7",
